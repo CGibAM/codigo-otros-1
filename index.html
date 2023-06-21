@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+     <!-- Aqui, existe un error, no se accede correctamente a la carpera de assets, se necesitaria el ./ para el directorio -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>APIs</title>
 </head>
 <body>
     <p class="name"></p>
     <p class="blog"></p>
+    <p class="location"></p>
 
-  <script src="../assets/js/app.js"></script>
+    <!-- Aqui, existe un error, ya que al querer llamar el script, la rura esta incorrectamente marcada con ../, cuando deberia ser ./ -->
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
